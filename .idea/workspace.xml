@@ -24,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -41,6 +44,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1cC77Pjkj4IbOHXitV2z6z49iy1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -185,11 +189,22 @@
       <workItem from="1590020557669" duration="12472000" />
       <workItem from="1590111688489" duration="2532000" />
       <workItem from="1590114471520" duration="3246000" />
-      <workItem from="1590117746867" duration="11479000" />
+      <workItem from="1590117746867" duration="14474000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

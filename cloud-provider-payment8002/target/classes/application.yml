@@ -21,4 +21,10 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
+      #集群
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+      #单机
+      #defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: payment8002    #设置服务名称
+    prefer-ip-address: true   #显示服务的IP地址
