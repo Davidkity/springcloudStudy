@@ -22,6 +22,13 @@ spring:
             - Path=/payment/lb/**   #断言,路径相匹配的进行路由
             - After=2020-05-26T17:39:25.471+08:00[GMT+08:00]
 
+        - id: order_routh
+          # uri: http://localhost:8001
+          uri: lb://cloud-provider-hystrix-order  #匹配后提供服务的路由地址
+          predicates:
+            - Path=/consumer/payment/hystrix/ok/**,/consumer/payment/hystrix/timeout/**   #断言,路径相匹配的进行路由
+
+
 
 eureka:
   instance:
